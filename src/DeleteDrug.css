@@ -1,0 +1,95 @@
+/* Style for the side buttons */
+.side-buttons {
+  display: flex;
+  flex-direction: row; /* Stack the buttons vertically */
+  row-gap: 500px; /* Add space between buttons */
+  column-gap: 500px;/* Add space between buttons */ 
+ 
+}
+
+.side-button {
+  padding: 30px 30px;
+  background-color: lightgray;
+  color: black;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 1cm; /* Add a 1cm gap below each button */
+  text-decoration: none; /* Remove underlines on buttons */
+  margin-right: 2cm;
+  
+}
+
+
+
+.side-button:hover {
+  background-color: darkgray;
+}
+
+.delete-drug{
+  display: flex;
+    align-items: center;
+    color: red;
+    font-size: 45px;
+    flex-direction: column;
+    padding: 40px;
+    height: 200vh;
+}
+  .store-drug {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  /* Style for the selecting buttons */
+.select-buttons {
+    display: flex;
+    gap: 5cm;
+     
+  }
+  
+  .select-box {
+    width: 100%;
+    padding: 0.5cm;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: darkred;
+  }
+  
+  /* Style for the store data table */
+  .store-table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 2cm;
+  }
+  
+  .store-table th {
+    background-color: lightgray;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .store-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    background-color: lightgray;
+    color: black;
+  }
+
+  .delete-button{
+    width: 9cm;
+    height: 2cm;
+    padding: 50px 50px;
+    background-color:black;
+    color:white;
+    text-align: center;
+    font-size: 35px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 1cm;
+    margin-right: 2cm;
+  }

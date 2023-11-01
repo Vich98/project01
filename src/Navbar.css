@@ -1,0 +1,35 @@
+/* Style for the navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    column-gap: 1cm;
+    padding: 15px;
+    background-color: #b60808; /* Red background color */
+  }
+  
+  /* Style for the logo */
+  .logo {
+    height: 48px;
+    margin-left: 10px;
+    background-color: #b60808;
+  }
+  
+  /* Style for the navigation links */
+  .nav-links {
+    display: flex;
+    text-transform: uppercase;
+    color: #ffffff; /* White text color */
+    margin-right: 10px;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  /* Style for the navigation links on hover (optional) */
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  

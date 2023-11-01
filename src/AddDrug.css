@@ -1,0 +1,98 @@
+/* AddDrug.css */
+
+
+/* Style for the side buttons */
+.side-buttons {
+  display: flex;
+  flex-direction: row; /* Stack the buttons vertically */
+  row-gap: 500px; /* Add space between buttons */
+  column-gap: 500px;/* Add space between buttons */ 
+ 
+}
+
+.side-button {
+  padding: 30px 30px;
+  background-color: lightgray;
+  color: black;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 1cm; /* Add a 1cm gap below each button */
+  text-decoration: none; /* Remove underlines on buttons */
+  margin-right: 2cm;
+  
+}
+
+
+
+.side-button:hover {
+  background-color: darkgray;
+}
+
+
+
+.details {
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.detail-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5cm;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 1cm;
+}
+
+.input-box {
+  width: 9cm;
+  height: 2cm;
+  padding: 50px 50px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 5;
+}
+
+/* Style for the Add button */
+.add-button {
+  width: 9cm;
+  height: 2cm;
+  padding: 50px 50px;
+  background-color:black;
+  color:white;
+  text-align: center;
+  font-size: 35px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 1cm;
+  margin-right: 2cm;
+}
+.input-row{
+  color: black;
+
+}
+.add-drug
+{
+  display: flex;
+  align-items: center;
+  color: red;
+  flex-direction: column;
+  font-size: 45px;
+  padding: 50px;
+  height: 200vh;
+}
+.header {
+  text-align: center;
+  font-size: 40px;
+  color: red;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
