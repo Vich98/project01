@@ -29,14 +29,14 @@ const Exit = () => {
       {confirmed ? (
         // Show the "Exit" button and link to the home page
         <div>
-          <h1>Exit</h1>
+          <h4>Exit</h4>
           <p>You have successfully exited.</p>
           <Link to="/">Back to Home</Link>
         </div>
       ) : (
         // Show the confirmation question and "Yes" and "No" buttons
         <div>
-          <h1>Do You Want to Exit?</h1>
+          <h4>Do You Want to Exit?</h4>
           <button onClick={() => setConfirmed(true)}>Yes</button>
           <button onClick={() => setConfirmed(false)}>No</button>
         </div>
